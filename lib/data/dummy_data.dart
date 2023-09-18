@@ -1,56 +1,56 @@
 import 'package:flutter/material.dart';
 
-import 'package:meals/models/caticon.dart';
+import 'package:meals/models/category.dart';
 import 'package:meals/models/meal.dart';
 
 // Constants in Dart should be written in lowerCamelcase.
 const availableCategories = [
-  Caticon(
+  Category(
     id: 'c1',
     title: 'Italian',
     color: Colors.purple,
   ),
-  Caticon(
+  Category(
     id: 'c2',
     title: 'Quick & Easy',
     color: Colors.red,
   ),
-  Caticon(
+  Category(
     id: 'c3',
     title: 'Hamburgers',
     color: Colors.orange,
   ),
-  Caticon(
+  Category(
     id: 'c4',
     title: 'German',
     color: Colors.amber,
   ),
-  Caticon(
+  Category(
     id: 'c5',
     title: 'Light & Lovely',
     color: Colors.blue,
   ),
-  Caticon(
+  Category(
     id: 'c6',
     title: 'Exotic',
     color: Colors.green,
   ),
-  Caticon(
+  Category(
     id: 'c7',
     title: 'Breakfast',
     color: Colors.lightBlue,
   ),
-  Caticon(
+  Category(
     id: 'c8',
     title: 'Asian',
     color: Colors.lightGreen,
   ),
-  Caticon(
+  Category(
     id: 'c9',
     title: 'French',
     color: Colors.pink,
   ),
-  Caticon(
+  Category(
     id: 'c10',
     title: 'Summer',
     color: Colors.teal,
